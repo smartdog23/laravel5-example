@@ -39,7 +39,7 @@ return [
 	|
 	*/
 
-	'url' => 'http://localhost',
+	'url' => 'http://lara-blog-01.heroku.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -104,7 +104,7 @@ return [
 	|
 	*/
 
-	'key' => env('APP_KEY', 'SomeRandomString'),
+	'key' => env('APP_KEY', 'base64:au/6W5+4XcWtCdgaqz7kW1mIvup6GmPgPB4vwFx1euA='),
 
 	'cipher' => 'AES-256-CBC',
 
